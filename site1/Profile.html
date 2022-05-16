@@ -25,20 +25,55 @@
       </div>
       <div class="box">
         <form>
+            <div class="titulo">
           <h3>Cadastre-se</h3>
-          <label> name: </label>
-          <input type="text" />
-          <label> email: </label>
-          <input type="email" />
-          <label> password: </label>
-          <input type="password" required />
-          <label>hora:</label>
-          <input type="time" />
-          <label> Number: </label>
-          <input type="number" />
+        </div>
+          <div class="input">
+            <label> Main: </label>
+            <input type="text" />
 
-          <div>
-            <button type="submit" onclick="(evt)=>evt.preventDefault()">Cadastrar</button>
+            <label> Sim? </label>
+            <input type="checkbox" />
+
+            <label> E a cor? </label>
+            <input type="color" />
+
+            <label> Bote a data e horario: </label>
+            <input type="datetime-local" />
+
+            <label> Busque: </label>
+            <input type="file" />
+
+            <label> Radio: </label>
+            <input type="radio" />
+          </div>
+          <div class="input">
+            <label> Pesquise: </label>
+            <input type="search" />
+
+            <label> Link; </label>
+            <input type="url" />
+
+            <label> Telefone: </label>
+            <input type="tel" />
+
+            <label> Semana: </label>
+            <input type="week" />
+
+            <label> Deslize: </label>
+            <input type="range" />
+
+            <label> Numere: </label>
+            <input type="number" />
+
+            <label> Mes: </label>
+            <input type="month" />
+          </div>
+
+          <div class="titulo">
+            <button type="submit" onclick="(evt)=>evt.preventDefault()">
+              Cadastrar
+            </button>
             <button type="reset">limpar</button>
           </div>
         </form>
@@ -46,3 +81,4 @@
     </div>
   </body>
 </html>
+
